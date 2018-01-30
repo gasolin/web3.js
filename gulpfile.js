@@ -18,7 +18,7 @@ var bower = require('bower');
 var streamify = require('gulp-streamify');
 var replace = require('gulp-replace');
 
-var DEST = path.join(__dirname, 'dist/');
+var DEST = path.join(__dirname, 'packages', 'web3', 'dist/');
 
 var packages = [{
     fileName: 'web3',
